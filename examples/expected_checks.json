@@ -1,0 +1,12 @@
+{
+  "scope": "synthetic example only; not an investment target",
+  "seed": 37,
+  "calendar_days": 80,
+  "stocks": 40,
+  "pools": ["FULL", "WIDE", "MEDIUM", "SMALL"],
+  "accounting_rows_per_pool": 78,
+  "valid_group_days_per_pool": 73,
+  "retained_insufficient_days_per_pool": 5,
+  "ledger_rows": 312,
+  "accounting_identity_absolute_tolerance": 1e-12
+}
