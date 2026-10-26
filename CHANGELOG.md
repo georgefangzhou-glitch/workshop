@@ -15,3 +15,11 @@
 - 不发布真实研究绩效或私有实现；未启用外部 CI、GitHub Pages 或自动发布。
 
 主题页与可运行样例的状态分别说明，不将研究设计冒充已完成的实证案例。
+
+## 2026-10-26 · Research showcase
+
+- Rebuilt the landing page around verified historical results and research ownership.
+- Added six real research cases, 24 original backtest figures and one futures event-study figure.
+- Added narrative evidence and selected comparisons from 33 historical cross-universe replays; complete metric datasets remain private.
+- Expanded research coverage across networks, microstructure, intraday signals, portfolio boundaries and exploratory cross-asset work.
+- Kept private implementations and commercial inputs outside the publication tree; distinguished retrospective gross results from prospective validation.
