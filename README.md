@@ -8,7 +8,7 @@
 
 这是 [@georgefangzhou-glitch](https://github.com/georgefangzhou-glitch) 的量化研究展示工作台。关注 A 股横截面研究中的高频信息日频化、股票关系网络、信号拆解，以及回测结果是否值得相信。
 
-> A research portfolio focused on testable hypotheses, signal decomposition, and reproducible validation. The executable lab uses **synthetic data only**; it is not evidence of investment performance.
+> A research portfolio covering ten selected factor topics, a research-environment overview, and reproducible validation. Real factor implementations and commercial data are not published. The separate executable lab uses **synthetic data only**.
 
 | 研究判断 | 验证工程 | 表达与边界 |
 | :--- | :--- | :--- |
@@ -16,13 +16,33 @@
 
 ## 从这里开始
 
-- **快速了解研究思路：** 浏览下面四个主题。
+- **先看研究内容：** [10个因子：英文名称与中文介绍](docs/factors/README.md)。
+- **深入看一个案例：** [Analyst Co-Coverage Reversal](docs/factors/analyst-co-coverage-reversal.md)，解释共同覆盖关系、相对反转、版本区别与反证。
+- **了解研究环境：** [技术栈、研究流程与验证规范](docs/research-environment.md)，只展示工作方式，不提供内网环境或真实数据接入。
+- **查看通用研究思路：** 浏览下面四个主题。
 - **检查工程能力：** 在本地运行合成数据样例和自动测试，全程不需要数据库、密钥或商业数据。
 - **查看披露范围：** [公开内容边界](docs/disclosure.md)；[本版验证记录](docs/validation.md)。
 
+## Ten Selected Factors
+
+因子采用英文展示名，介绍使用中文。这里只给研究对象与经济假设，**不公开真实因子源码、精确参数、交易信号或绩效数字**；“精选”不是同口径回测排名前十，也不是可交易性认证。
+
+| English name | 中文介绍 |
+| :--- | :--- |
+| [Analyst Co-Coverage Reversal](docs/factors/analyst-co-coverage-reversal.md) | 利用分析师共同覆盖关系，研究股票相对直接关联公司的价格反应差异与修复可能。 |
+| [Residual Non-Isolated Trade Imbalance](docs/factors/residual-non-isolated-trade-imbalance.md) | 观察非孤立成交的买卖不平衡，研究剥离规模与同期涨跌后是否仍有增量信息。 |
+| [Turnover Distribution Uniformity](docs/factors/turnover-distribution-uniformity.md) | 从分钟换手率的波动及其跨日稳定性，研究交易活跃度是否均匀分布。 |
+| [Information Distribution Uniformity](docs/factors/information-distribution-uniformity.md) | 从日内收益波动的跨日变化，研究价格信息是持续释放还是集中冲击。 |
+| [Minute Ideal Amplitude](docs/factors/minute-ideal-amplitude.md) | 比较较高与较低价格位置附近的分钟振幅，区分同样波动背后的不同路径。 |
+| [Climb the Peak](docs/factors/climb-the-peak.md) | 联合考察局部波动状态的变化与稳定性，研究价格过程的波动结构。 |
+| [Intraday Time-Center Divergence](docs/factors/intraday-time-center-divergence.md) | 比较上涨与下跌发生的时间重心，研究涨跌力量在日内何时集中。 |
+| [Upward Price Resonance](docs/factors/upward-price-resonance.md) | 从个股与市场上涨活动的同步程度，研究共同波动之外的截面差异。 |
+| [Turnover Growth Stability](docs/factors/turnover-growth-stability.md) | 研究换手率变化是否稳定，而不是单纯寻找换手率高或低的股票。 |
+| [Regret-Aversion Buying Volume](docs/factors/regret-aversion-buying-volume.md) | 观察主动买入成交在收盘时的相对价格位置，研究不同成交群体的行为差异。 |
+
 ## 四个研究主题
 
-主题页展示研究问题和实验设计，**不把未公开的真实研究指标当成已交付证据**。
+主题页展示通用研究问题和实验设计；上面的因子卡片是具体研究对象。两者都不把未公开的真实指标当成已交付证据。
 
 | 主题 | 想回答的问题 | 当前可公开内容 |
 | :--- | :--- | :--- |
@@ -65,6 +85,7 @@ artifacts/demo/
 - 研究主题页是方法说明，不宣称其中的通用方法或经典研究问题属于原创。
 - 使用 AI 辅助整理文档和实现样例；研究解释、代码审阅与可复现性检查仍需由维护者负责。
 - 本版不发布真实回测数字、商业数据、私有因子面板、研报全文或公司代码。
+- 十个因子只提供英文名称与中文介绍；原有合成教学样例不是它们的构造源码。研究环境页也不是可下载的公司环境镜像。
 - 未默认授予额外的软件或数据许可；若需要复用，请先讨论合适的授权范围。
 
 ## 更新
