@@ -9,3 +9,9 @@
 本页不披露窗口、阈值、源码、商业分钟数据。
 
 [返回因子目录](README.md)
+
+## 已完成回测
+
+[查看中证1000、中证500、沪深300的指标与12张原始图](../results/ten/information-distribution-uniformity.md)。
+
+行业＋规模中性版本。

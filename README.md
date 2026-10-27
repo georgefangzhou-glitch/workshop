@@ -18,6 +18,25 @@
 
 上面两项绩效来自不同案例。均为回顾性历史毛收益；完整日期、股票池、基准和选择口径见[真实回测图集](docs/results/README.md)。
 
+## Ten Factors: Historical Backtests
+
+**十个因子、三个历史指数池、30组回测、120张原始图。** 中证1000、中证500、沪深300分别列示，包含较弱结果；日期和处理版本见各页。
+
+| 因子 | 中证1000 G10超额年化 | 中证500 G10超额年化 | 沪深300 G10超额年化 |
+|---|---:|---:|---:|
+| [分析师共同覆盖改进反转](docs/results/ten/analyst-co-coverage-reversal.md) | 12.40% | 9.70% | 6.36% |
+| [反转残差非孤立成交不平衡](docs/results/ten/residual-non-isolated-trade-imbalance.md) | 13.76% | 6.62% | 4.43% |
+| [换手率分布均匀度](docs/results/ten/turnover-distribution-uniformity.md) | 10.51% | 3.65% | 3.05% |
+| [信息分布均匀度](docs/results/ten/information-distribution-uniformity.md) | 13.40% | 4.43% | 0.82% |
+| [分钟理想振幅](docs/results/ten/minute-ideal-amplitude.md) | 8.35% | 0.26% | 4.26% |
+| [勇攀高峰](docs/results/ten/climb-the-peak.md) | 12.22% | 4.24% | -0.67% |
+| [时间重心偏离独立分项](docs/results/ten/intraday-time-center-divergence.md) | 7.83% | 5.20% | 4.82% |
+| [上涨价变共振分项](docs/results/ten/upward-price-resonance.md) | 11.17% | 5.65% | -0.78% |
+| [换手率变化稳定性](docs/results/ten/turnover-growth-stability.md) | 6.71% | 2.67% | -8.77% |
+| [高于收盘价主动买量占比](docs/results/ten/regret-aversion-buying-volume.md) | 3.58% | 3.69% | 5.40% |
+
+[查看十因子完整图集与口径 →](docs/results/ten/README.md)
+
 ## Selected Research Results
 
 以下精选结果以 **G10超额表现、分层质量和研究代表性**为展示依据，图表保留原始输出。超额基准统一为中证1000官方历史权重下的日VWAP研究序列。
@@ -48,7 +67,7 @@
 
 ![Volume and Price Range G10 and benchmark comparison](assets/results/volume-price-range/benchmark.png)
 
-**[查看六个案例的完整四图与指标 →](docs/results/README.md)**
+**[查看十个因子的三池完整图集 →](docs/results/ten/README.md)** · [保留的六个精选案例](docs/results/README.md)
 
 ## Research Coverage
 

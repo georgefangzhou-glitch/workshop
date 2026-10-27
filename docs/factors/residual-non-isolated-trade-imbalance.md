@@ -11,3 +11,9 @@
 [返回因子目录](README.md)
 
 [查看对应版本的真实四图与指标](../results/README.md#residual-non-isolated-trade-imbalance)。
+
+## 已完成回测
+
+[查看中证1000、中证500、沪深300的指标与12张原始图](../results/ten/residual-non-isolated-trade-imbalance.md)。
+
+每日信号研究版，保留市值及同期收益残差处理；不是原研报月末信号版本，也不是行业＋规模中性版本。

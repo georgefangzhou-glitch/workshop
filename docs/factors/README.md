@@ -26,3 +26,5 @@
 CF详细页只讨论直接关联反转这个研究对象，不把间接关联、组合信号、首次覆盖事件和不同网络更新版本的结果混用。
 
 [返回首页](../../README.md) · [Research Environment](../research-environment.md)
+
+[十个因子的三池真实回测：指标与120张图](../results/ten/README.md)。每个介绍页也有直接结果入口。

@@ -23,3 +23,9 @@
 - Added narrative evidence and selected comparisons from 33 historical cross-universe replays; complete metric datasets remain private.
 - Expanded research coverage across networks, microstructure, intraday signals, portfolio boundaries and exploratory cross-asset work.
 - Kept private implementations and commercial inputs outside the publication tree; distinguished retrospective gross results from prospective validation.
+
+## 2026-10-27 · Ten-factor cross-universe gallery
+
+- Added all ten existing factor topics with CSI1000, CSI500 and CSI300 backtest results: 30 runs and 120 unchanged original figures.
+- Published the corresponding aggregate metrics with actual dates, processing and signed weaker outcomes.
+- Kept existing showcase assets and private implementation boundaries; no new backtests.

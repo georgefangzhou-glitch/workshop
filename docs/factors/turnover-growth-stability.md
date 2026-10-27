@@ -11,3 +11,9 @@
 [返回因子目录](README.md)
 
 [查看对应版本的真实四图与指标](../results/README.md#turnover-growth-stability)。
+
+## 已完成回测
+
+[查看中证1000、中证500、沪深300的指标与12张原始图](../results/ten/turnover-growth-stability.md)。
+
+本页三池均为仅规模处理版本，2020-01-06起。旧精选图集中的全A图为行业＋规模中性版本，且区间更长；两者不是只改变股票池的同版本对照。
