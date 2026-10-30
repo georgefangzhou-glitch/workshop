@@ -1,26 +1,37 @@
 <p align="center">
-  <img src="assets/workshop-banner.svg" alt="George — Quantitative Research and Alpha Engineering" width="100%">
+  <img src="assets/workshop-banner.svg" alt="George Qian — Factor Research and Multi-Asset Strategies" width="100%">
 </p>
 
-# Quantitative Research and Alpha Engineering
+# George Qian · 因子研究与多资产量化
 
-**市场微观结构、关系网络与行为金融驱动的系统化 Alpha 研究。**
+从经济逻辑、因子构建到分层验证与组合研究。
 
-我是 [George](https://github.com/georgefangzhou-glitch)。我的研究以 A 股横截面选股为核心，覆盖日频、分钟、逐笔成交与盘口信息，贯穿数据核查、信号构造、风格剥离、分量消融、跨股票池回放和结果审计，并向期货事件研究与美股日内研究拓展。
+我是[钱方舟（George）](https://github.com/georgefangzhou-glitch)，University of New South Wales（UNSW Sydney）金融科技硕士，国家奖学金获得者。我的研究以 A 股 Alpha 因子为主线，覆盖日频、分钟频、逐笔成交与盘口数据，累计入库 50+ 因子，包含原创构造与改造优化。
 
-我关注的不只是发现一个统计关系，而是把研究问题推进到**口径明确、时间可交易、结果可核查、适用范围可解释**的研究结论。
+我重点承担市场机制观察、经济假设提出、数据核查、因子实现、行业市值中性化、分量拆解与回测解释。评估信号时同时看十组分层、Rank IC / ICIR、长端超额、换手和风格暴露，结合相关性与跨股票池对照判断增量信息。
 
-> Equity alpha research across market microstructure, analyst networks and trading behaviour. Selected historical results, cross-universe experiments and executable research-validation examples.
+我的多资产研究经历还包括美股多因子选股、虚拟货币 OU 均值回复套利、ETF 套利与股指期货事件研究。下方以 A 股已公开的历史结果为主要证据，学校项目与探索性研究另作说明。
+
+> Factor research from economic hypotheses to signal construction, cross-sectional validation and portfolio analysis, with project experience in U.S. equities, crypto statistical arbitrage and ETFs.
+
+## Education
+
+| University | 学位与专业 | 时间 |
+| :--- | :--- | :--- |
+| University of New South Wales · UNSW Sydney（[QS 2027 全球第 19](https://www.unsw.edu.au/about-us/excellence/rankings-reputation)） | 金融科技硕士 · 75/100（Distinction） | 2025.09—2026.10 |
+| Sanda University | 国际经济与贸易本科 · 88/100（前 3%）· 国家奖学金（2024） | 2021.09—2025.06 |
+
+## Factor Research at a Glance
 
 | 已完成的代表性实验 | 精选多头结果 | 精选排序结果 |
 | :--- | :--- | :--- |
-| **11个信号 × 3个历史指数池 = 33组正式回放**，同区间1,692个交易日 | 价量区间案例：**G10毛超额年化20.39%** | 换手增长稳定性案例：**H-L Sharpe 4.42** |
+| 11个信号 × 3个历史指数池 = 33组正式回放，同区间1,692个交易日 | 价量区间案例：G10毛超额年化20.39% | 换手增长稳定性案例：H-L Sharpe 4.42 |
 
 上面两项绩效来自不同案例。均为回顾性历史毛收益；完整日期、股票池、基准和选择口径见[真实回测图集](docs/results/README.md)。
 
 ## Ten Factors: Historical Backtests
 
-**十个因子、三个历史指数池、30组回测、120张原始图。** 中证1000、中证500、沪深300分别列示，包含较弱结果；日期和处理版本见各页。
+十个因子、三个历史指数池、30组回测、120张原始图。 中证1000、中证500、沪深300分别列示，包含较弱结果；日期和处理版本见各页。
 
 | 因子 | 中证1000 G10超额年化 | 中证500 G10超额年化 | 沪深300 G10超额年化 |
 |---|---:|---:|---:|
@@ -39,47 +50,47 @@
 
 ## Selected Research Results
 
-以下精选结果以 **G10超额表现、分层质量和研究代表性**为展示依据，图表保留原始输出。超额基准统一为中证1000官方历史权重下的日VWAP研究序列。
+以下精选结果以 G10超额表现、分层质量和研究代表性为展示依据，图表保留原始输出。超额基准统一为中证1000官方历史权重下的日VWAP研究序列。
 
 | 全市场研究案例 | G10超额年化 | G10绝对Sharpe | H-L Sharpe | 日Rank IC | 区间 |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| [Volume and Price Range](docs/results/README.md#volume-and-price-range) | **20.39%** | 1.45 | 2.81 | 0.0566 | 2018-10-08—2025-09-30 |
-| [Turnover Growth Stability](docs/results/README.md#turnover-growth-stability) | **15.26%** | 1.06 | **4.42** | 0.0272 | 2018-10-09—2025-09-30 |
+| [Volume and Price Range](docs/results/README.md#volume-and-price-range) | 20.39% | 1.45 | 2.81 | 0.0566 | 2018-10-08—2025-09-30 |
+| [Turnover Growth Stability](docs/results/README.md#turnover-growth-stability) | 15.26% | 1.06 | 4.42 | 0.0272 | 2018-10-09—2025-09-30 |
 
 | 中证1000历史成分股内选股案例 | G10超额年化 | G10绝对Sharpe | H-L Sharpe | 日Rank IC |
 | :--- | ---: | ---: | ---: | ---: |
-| [Residual Non-Isolated Trade Imbalance](docs/results/README.md#residual-non-isolated-trade-imbalance) | **13.76%** | 1.24 | 3.47 | 0.0168 |
-| [Analyst Co-Coverage Reversal](docs/results/README.md#analyst-co-coverage-reversal) | **12.40%** | 0.97 | 2.48 | 0.0217 |
-| [Climb the Peak](docs/results/README.md#climb-the-peak) | **12.22%** | 1.04 | **4.40** | 0.0308 |
-| [Pre-Decline Turnover Signature](docs/results/README.md#pre-decline-turnover-signature) | **10.35%** | 1.04 | **4.33** | 0.0369 |
+| [Residual Non-Isolated Trade Imbalance](docs/results/README.md#residual-non-isolated-trade-imbalance) | 13.76% | 1.24 | 3.47 | 0.0168 |
+| [Analyst Co-Coverage Reversal](docs/results/README.md#analyst-co-coverage-reversal) | 12.40% | 0.97 | 2.48 | 0.0217 |
+| [Climb the Peak](docs/results/README.md#climb-the-peak) | 12.22% | 1.04 | 4.40 | 0.0308 |
+| [Pre-Decline Turnover Signature](docs/results/README.md#pre-decline-turnover-signature) | 10.35% | 1.04 | 4.33 | 0.0369 |
 
 四个指数内案例均为2018-10-17—2025-09-30。年化采用日收益均值×250，Sharpe按250日；未扣交易成本。这些是筛选后的研究结果，不是独立未见样本或实盘收益。
 
 ### 从信号到分层
 
-**Climb the Peak · 中证1000内 · 行业与规模中性版本**
+Climb the Peak · 中证1000内 · 行业与规模中性版本
 
 ![Climb the Peak historical ten-group layering](assets/results/climb-the-peak/deciles.png)
 
 ### 从分层到多头超额
 
-**Volume and Price Range · 历史沪深A股 · 日频研究适配版**
+Volume and Price Range · 历史沪深A股 · 日频研究适配版
 
 ![Volume and Price Range G10 and benchmark comparison](assets/results/volume-price-range/benchmark.png)
 
-**[查看十个因子的三池完整图集 →](docs/results/ten/README.md)** · [保留的六个精选案例](docs/results/README.md)
+[查看十个因子的三池完整图集 →](docs/results/ten/README.md) · [保留的六个精选案例](docs/results/README.md)
 
 ## Research Coverage
 
 | 研究方向 | 我推进的工作 | 可查看的证据或入口 |
 | :--- | :--- | :--- |
-| **关系网络与相对定价** | 分析师共同覆盖、直接与间接关系区分、相对反转、覆盖与可得性核查 | [分析师网络案例](docs/factors/analyst-co-coverage-reversal.md) |
-| **逐笔成交与市场微观结构** | 非孤立成交不平衡、主动买入行为、盘口信息与成交时点、残差化对照 | [成交不平衡四图](docs/results/README.md#residual-non-isolated-trade-imbalance) |
-| **高频信息日频化** | 分钟振幅、波动结构、信息分布、成交活动的跨日聚合与排序 | [因子研究目录](docs/factors/README.md) |
-| **分量与增量信息** | 共振分量独立评估、相关性、行业规模处理及收益风格对照 | [分量拆解研究](docs/cases/02-signal-decomposition.md) |
-| **跨股票池泛化** | 固定构造，对历史1000／500／300池进行同口径回放，识别信号失效范围 | [跨池实验与适用边界](docs/research-scope.md#cross-universe-evidence) |
-| **事件与跨资产探索** | 股指期货交割窗口的持仓迁移研究、美股日内研究与执行完整性诊断 | [研究覆盖与拓展方向](docs/research-scope.md) |
-| **研究工程与可信度** | 多源数据口径、分批任务、版本锁定、时序测试、分组恒等式与哈希复核 | [研究环境](docs/research-environment.md) · [可运行验证样例](docs/reproducibility.md) |
+| 关系网络与相对定价 | 分析师共同覆盖、直接与间接关系区分、相对反转、覆盖与可得性核查 | [分析师网络案例](docs/factors/analyst-co-coverage-reversal.md) |
+| 逐笔成交与市场微观结构 | 非孤立成交不平衡、主动买入行为、盘口信息与成交时点、残差化对照 | [成交不平衡四图](docs/results/README.md#residual-non-isolated-trade-imbalance) |
+| 高频信息日频化 | 分钟振幅、波动结构、信息分布、成交活动的跨日聚合与排序 | [因子研究目录](docs/factors/README.md) |
+| 分量与增量信息 | 共振分量独立评估、相关性、行业规模处理及收益风格对照 | [分量拆解研究](docs/cases/02-signal-decomposition.md) |
+| 跨股票池泛化 | 固定构造，对历史1000／500／300池进行同口径回放，识别信号失效范围 | [跨池实验与适用边界](docs/research-scope.md#cross-universe-evidence) |
+| 多资产研究 | 美股多因子选股、虚拟货币 OU 套利、ETF 套利与股指期货交割事件研究 | [研究覆盖与拓展方向](docs/research-scope.md) |
+| 研究工程与可信度 | 多源数据口径、分批任务、版本锁定、时序测试、分组恒等式与哈希复核 | [研究环境](docs/research-environment.md) · [可运行验证样例](docs/reproducibility.md) |
 
 ## Research Ownership
 
@@ -89,14 +100,14 @@
 
 ## 从这里开始
 
-- **先看成果：** [真实回测图集与指标](docs/results/README.md)。
-- **再看研究范围：** [研究覆盖、已完成证据与下一步](docs/research-scope.md)。
-- **看具体研究对象：** [10个因子：英文名称与中文介绍](docs/factors/README.md)。
-- **深入看一个案例：** [Analyst Co-Coverage Reversal](docs/factors/analyst-co-coverage-reversal.md)，解释共同覆盖关系、相对反转、版本区别与反证。
-- **了解研究环境：** [技术栈、研究流程与验证规范](docs/research-environment.md)，只展示工作方式，不提供内网环境或真实数据接入。
-- **查看通用研究思路：** 浏览下面四个主题。
-- **检查工程能力：** 在本地运行合成数据样例和自动测试，全程不需要数据库、密钥或商业数据。
-- **查看披露范围：** [公开内容边界](docs/disclosure.md)；[本版验证记录](docs/validation.md)。
+- 先看成果： [真实回测图集与指标](docs/results/README.md)。
+- 再看研究范围： [研究覆盖、已完成证据与下一步](docs/research-scope.md)。
+- 看具体研究对象： [10个因子：英文名称与中文介绍](docs/factors/README.md)。
+- 深入看一个案例： [Analyst Co-Coverage Reversal](docs/factors/analyst-co-coverage-reversal.md)，解释共同覆盖关系、相对反转、版本区别与反证。
+- 了解研究环境： [技术栈、研究流程与验证规范](docs/research-environment.md)，只展示工作方式，不提供内网环境或真实数据接入。
+- 查看通用研究思路： 浏览下面四个主题。
+- 检查工程能力： 在本地运行合成数据样例和自动测试，全程不需要数据库、密钥或商业数据。
+- 查看披露范围： [公开内容边界](docs/disclosure.md)；[本版验证记录](docs/validation.md)。
 
 ## Ten Selected Factors
 
@@ -128,7 +139,7 @@
 
 ## 两条命令，检查样例
 
-需要 Python **3.10+**，无第三方运行依赖。在仓库根目录执行：
+需要 Python 3.10+，无第三方运行依赖。在仓库根目录执行：
 
 ```bash
 python -m unittest discover -s tests -v
@@ -147,12 +158,28 @@ artifacts/demo/
 
 ### 这个样例实际验证什么？
 
-1. **可得时间与收益标签：** 收盘后信号只能匹配次日入场；在本例的退出日标记下，收益行在信号日之后两个交易位置。
-2. **历史股票池：** 使用信号日成员资格，而不是收益记账日或今天的成员；全市场也不等于几个子池的并集。
-3. **缺失与覆盖：** 未知价格不填零，已选股票收益缺失时明确报错，预热期不压缩日历。
-4. **分组与相关性：** 检查 `H-L = G10 - G1`、绝对／超额收益还原、逐日 Spearman，以及 `mean(abs(corr))`。
+1. 可得时间与收益标签： 收盘后信号只能匹配次日入场；在本例的退出日标记下，收益行在信号日之后两个交易位置。
+2. 历史股票池： 使用信号日成员资格，而不是收益记账日或今天的成员；全市场也不等于几个子池的并集。
+3. 缺失与覆盖： 未知价格不填零，已选股票收益缺失时明确报错，预热期不压缩日历。
+4. 分组与相关性： 检查 `H-L = G10 - G1`、绝对／超额收益还原、逐日 Spearman，以及 `mean(abs(corr))`。
 
 完整的[运行与口径说明](docs/reproducibility.md)区分已验证和没有实现的功能。这里不是生产回测引擎，也没有撮合、冲击成本、融券或容量模型。
+
+## UNSW 学校项目与多资产研究
+
+学校项目围绕不同市场的信号来源与组合方法展开，重点展示我对选股、套利和风险控制问题的接触。
+
+| 资产与项目 | 研究内容 | 关注的问题 |
+| :--- | :--- | :--- |
+| 美股 · 多因子选股 | 因子标准化与综合打分、横截面分层、风险暴露与组合回测 | 单因子是否提供增量信息，组合效果是否稳定 |
+| 虚拟货币 · OU 统计套利 | 以配对价差为对象，研究均值回复信号、入退场阈值与持有期 | 价差的均值回复是否稳定，交易成本与极端波动如何影响策略 |
+| ETF · 套利研究 | 申赎与一二级市场价差、相关 ETF 配对和参数敏感性分析 | 套利空间能否覆盖成本，止损与持仓约束是否合理 |
+
+这些项目用于说明多资产研究经历；其绩效未计入上方 A 股历史结果。期货观察性事件研究及美股日内诊断另见[研究覆盖](docs/research-scope.md)。
+
+## 研究能力与工具
+
+我的核心能力是把市场现象转化为可检验的因子：明确经济逻辑、选择数据口径、实现信号、核对时序，再通过中性化、分层、相关性、消融与跨池对照分析收益来源。Python、SQL、DolphinDB 与 Linux 用于支撑这一研究流程，统计模型服务于具体假设与验证。
 
 ## 内容与贡献说明
 
@@ -167,6 +194,6 @@ artifacts/demo/
 
 见 [更新记录](CHANGELOG.md)。仅在有新证据、可运行实现或实质性更正时更新，不以提交数量代替研究质量。
 
-**联系：** 请通过本仓库的 GitHub Issues 交流公开方法和样例问题；不要提交商业数据、凭证或未经授权的研究资料。
+联系： 请通过本仓库的 GitHub Issues 交流公开方法和样例问题；不要提交商业数据、凭证或未经授权的研究资料。
 
 *Historical research results are selected, gross and retrospective. The executable lab is synthetic-only. Neither is a live investment track record.*
